@@ -41,7 +41,8 @@ const SwitchCountry : React.FC = () => {
         onChange={(e: React.ChangeEvent<HTMLSelectElement>) => 
           dispatch(fetchAsyncGetDaily(e.target.value))}
       >
-        {countries.map((country, index) => (
+        <option value="canada">canada</option> {/* default value */}
+        {countries.sort().map((country, index) => (
           <option key={index} value={country}>
             {country}
           </option>

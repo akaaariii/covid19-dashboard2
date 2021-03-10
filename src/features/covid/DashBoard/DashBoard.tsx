@@ -25,7 +25,7 @@ const DashBoard : React.FC = () => {
   const daily = useSelector(selectDaily);
 
   useEffect(() => {
-    dispatch(fetchAsyncGetDaily("japan"));
+    dispatch(fetchAsyncGetDaily("canada"));
   }, [dispatch]);
 
   return (
@@ -45,7 +45,7 @@ const DashBoard : React.FC = () => {
 
       <Container className={classes.content}>
         <div className={styles.container}>
-            <SwitchCountry />
+          <SwitchCountry />
         </div>
         <Grid container spacing={3}>
           <Grid item xs={12} md={12}>
