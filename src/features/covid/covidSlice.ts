@@ -14,7 +14,7 @@ type covidState = {
 
 const initialState: covidState = {
   daily: dataDaily,
-  country: "Japan",
+  country: "Canada",
 };
 
 export const fetchAsyncGetDaily = createAsyncThunk(
