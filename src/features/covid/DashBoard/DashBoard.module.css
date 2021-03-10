@@ -1,0 +1,31 @@
+main {
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titleFont, .dateFont {
+  font-weight: bold !important;
+}
+
+@media (max-width: 575.98px) {
+  .titleFont {
+    font-size: 1.2rem !important;
+  }
+  .dateFont {
+    font-size: .8rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .titleFont {
+    font-size: .9rem !important;
+  }
+  .dateFont {
+    font-size: .5rem !important;
+  }
+}
