@@ -11,4 +11,3 @@ API : [COVID-19 API](https://covid19api.com)
 
 ***
 
-<img width="800" alt="Screen Shot 2021-03-10 at 3 33 56 PM" src="https://user-images.githubusercontent.com/64046039/110874437-97455a80-8288-11eb-8702-503f4eea0534.png">
