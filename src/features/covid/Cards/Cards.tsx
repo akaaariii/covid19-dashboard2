@@ -36,7 +36,7 @@ const Cards : React.FC = () => {
               Recovered
             </Typography>
             <Typography variant="h5">
-              <CountUp start={0} end={daily[daily.length - 1].Deaths} duration={1.5} separator="," />
+              <CountUp start={0} end={daily[daily.length - 1].Recovered} duration={1.5} separator="," />
             </Typography>
           </CardContent>
         </Grid>
@@ -48,7 +48,7 @@ const Cards : React.FC = () => {
               Deaths
             </Typography>
             <Typography variant="h5">
-              <CountUp start={0} end={daily[daily.length - 1].Recovered} duration={1.5} separator="," />
+              <CountUp start={0} end={daily[daily.length - 1].Deaths} duration={1.5} separator="," />
             </Typography>
           </CardContent>
         </Grid>
