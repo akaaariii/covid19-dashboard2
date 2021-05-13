@@ -4,7 +4,7 @@
 
 ### [Demo](https://covid19-dashboard2.vercel.app)
 
-This website shows COVID-19 infected, recovered and deaths cases.  
+A website where you can see how many people have been infected, recovered and died in COVID-19.  
 You can see the number of cases by country.
 
 API : [COVID-19 API](https://covid19api.com)
